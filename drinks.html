@@ -31,8 +31,18 @@
 <a class="back" href="index.html">← MENU</a>
 
 <h1>DRINKS</h1>
+<nav class="menu-tabs">
 
-<h2>COCKTAILS</h2>
+<a href="#cocktails">Cocktails</a>
+
+<a href="#mocktails">Mocktails</a>
+
+<a href="#gin">Gin</a>
+
+<a href="#sangrias">Sangrias</a>
+
+</nav>
+<h2 id="cocktails">COCKTAILS</h2>
 
 <div class="drink">
 <strong>Caipirinha</strong>
@@ -76,7 +86,7 @@
 <span>9,00€</span>
 </div>
 
-<h2>MOCKTAILS</h2>
+<h2 id="mocktails">MOCKTAILS</h2>
 
 <div class="drink">
 <strong>Spritz de Laranja</strong>
@@ -120,7 +130,7 @@
 <span>6,00€</span>
 </div>
 
-<h2>GIN</h2>
+<h2 id="gin">GIN</h2>
 
 <div class="drink"><strong>Gordon's</strong><span>7,00€</span></div>
 <div class="drink"><strong>Gordon's Pink</strong><span>8,00€</span></div>
@@ -130,7 +140,7 @@
 <div class="drink"><strong>Nordés</strong><span>12,00€</span></div>
 <div class="drink"><strong>Monkey 47</strong><span>17,00€</span></div>
 
-<h2>SANGRIAS</h2>
+<h2 id="sangrias">SANGRIAS</h2>
 
 <div class="drink"><strong>Maracujá</strong><span>Copo 6€ | 1L 18€ | 2L 28€</span></div>
 <div class="drink"><strong>Frutos Vermelhos</strong><span>Copo 6€ | 1L 18€ | 2L 28€</span></div>
@@ -143,3 +153,33 @@
 
 </body>
 </html>
+html{
+    scroll-behavior:smooth;
+}
+
+.menu-tabs{
+    display:flex;
+    justify-content:space-between;
+    gap:8px;
+    margin:25px 0 35px;
+    overflow-x:auto;
+}
+
+.menu-tabs a{
+    flex:1;
+    text-align:center;
+    text-decoration:none;
+    color:#C9A15B;
+    border:1px solid rgba(201,161,91,.4);
+    border-radius:30px;
+    padding:10px 14px;
+    font-size:13px;
+    letter-spacing:1px;
+    white-space:nowrap;
+    transition:.25s;
+}
+
+.menu-tabs a:hover{
+    background:#C9A15B;
+    color:#0b0b0b;
+}
