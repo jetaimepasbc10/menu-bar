@@ -143,3 +143,46 @@ h2{
     margin-left:15px;
     font-size:17px;
 }
+.card{
+    transition:all .3s ease;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 30px rgba(201,161,91,.25);
+}
+
+.card:active{
+    transform:scale(.98);
+}
+
+.logo img{
+    animation:fadeDown 1s ease;
+}
+
+main{
+    animation:fadeUp .8s ease;
+}
+
+@keyframes fadeDown{
+    from{
+        opacity:0;
+        transform:translateY(-20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(25px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
