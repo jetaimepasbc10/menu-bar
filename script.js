@@ -55,9 +55,16 @@ function setLanguage(lang){
         $("drinksTitle").textContent = lang==="en" ? "DRINKS" : "DRINKS";
     }
 
-    const tabs=document.querySelectorAll(".menu-tabs a");
+    if (isDrinks) {
 
-    if(tabs.length===4){
+    const tabs = document.querySelectorAll(".menu-tabs a");
+
+    tabs[0].textContent = "Cocktails";
+    tabs[1].textContent = "Mocktails";
+    tabs[2].textContent = "Gin";
+    tabs[3].textContent = "Sangrias";
+
+}
 
         tabs[0].textContent=lang==="en"?"Cocktails":"Cocktails";
 
