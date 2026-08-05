@@ -67,23 +67,25 @@ function setLanguage(lang){
 
         const tabs = document.querySelectorAll(".menu-tabs a");
 
-        if(tabs.length >= 4){
+        if (tabs.length >= 5) {
 
-            tabs[0].textContent = "Cocktails";
-            tabs[1].textContent = "Mocktails";
-            tabs[2].textContent = "Gin";
-            tabs[3].textContent = "Sangrias";
-        }
+    tabs[0].textContent = "Cocktails";
+    tabs[1].textContent = "Mocktails";
+    tabs[2].textContent = "Gin";
+    tabs[3].textContent = "Whiskies";
+    tabs[4].textContent = "Sangrias";
+}
 
         const sections = document.querySelectorAll("h2");
 
-        if(sections.length >= 4){
+        if (sections.length >= 5) {
 
-            sections[0].textContent = "COCKTAILS";
-            sections[1].textContent = "MOCKTAILS";
-            sections[2].textContent = "GIN";
-            sections[3].textContent = "SANGRIAS";
-        }
+    sections[0].textContent = "COCKTAILS";
+    sections[1].textContent = "MOCKTAILS";
+    sections[2].textContent = "GIN";
+    sections[3].textContent = "WHISKIES";
+    sections[4].textContent = "SANGRIAS";
+}
     }
         // Tradução dos ingredientes dos Drinks
     document.querySelectorAll(".drink small").forEach(function(item){
