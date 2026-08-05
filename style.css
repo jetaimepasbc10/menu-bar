@@ -192,3 +192,19 @@ main{
         transform:translateY(0);
     }
 }
+.menu-tabs a{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+.menu-tabs a:hover{
+    color:#C9A15B;
+}
+
+.menu-tabs a:visited{
+    color:#ffffff;
+}
+
+.menu-tabs a:active{
+    color:#C9A15B;
+}
