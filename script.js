@@ -54,16 +54,6 @@ function setLanguage(lang){
     if($("drinksTitle")){
         $("drinksTitle").textContent = lang==="en" ? "DRINKS" : "DRINKS";
     }
-    if (isDrinks) {
-
-        tabs[0].textContent=lang==="en"?"Cocktails":"Cocktails";
-
-        tabs[1].textContent=lang==="en"?"Mocktails":"Mocktails";
-
-        tabs[2].textContent="Gin";
-
-        tabs[3].textContent=lang==="en"?"Sangrias":"Sangrias";
-    }
 
     // Apenas na página Drinks
 if (isDrinks) {
@@ -74,6 +64,13 @@ if (isDrinks) {
     tabs[1].textContent = "Mocktails";
     tabs[2].textContent = "Gin";
     tabs[3].textContent = "Sangrias";
+
+    const sections = document.querySelectorAll("h2");
+
+    sections[0].textContent = "COCKTAILS";
+    sections[1].textContent = "MOCKTAILS";
+    sections[2].textContent = "GIN";
+    sections[3].textContent = "SANGRIAS";
 
 }
 
