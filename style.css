@@ -70,3 +70,21 @@ h1{
 .disabled{
     opacity:.45;
 }
+.card{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.card span{
+    color:#C9A15B;
+    font-size:24px;
+}
+
+.card small{
+    display:block;
+    font-size:12px;
+    color:#888;
+    margin-top:4px;
+    font-weight:400;
+}
