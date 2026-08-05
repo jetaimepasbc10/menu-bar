@@ -68,18 +68,17 @@ function setLanguage(lang){
         tabs[3].textContent=lang==="en"?"Sangrias":"Sangrias";
     }
 
-    const sections=document.querySelectorAll("h2");
+    // Apenas na página Drinks
+if (isDrinks) {
 
-    if(sections.length>=4){
+    const sections = document.querySelectorAll("h2");
 
-        sections[0].textContent="COCKTAILS";
+    sections[0].textContent = "COCKTAILS";
+    sections[1].textContent = "MOCKTAILS";
+    sections[2].textContent = "GIN";
+    sections[3].textContent = "SANGRIAS";
 
-        sections[1].textContent="MOCKTAILS";
-
-        sections[2].textContent="GIN";
-
-        sections[3].textContent="SANGRIAS";
-    }
+}
 
     // Ingredientes
     document.querySelectorAll(".drink small").forEach(function(item){
