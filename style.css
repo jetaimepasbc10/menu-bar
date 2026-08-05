@@ -254,3 +254,34 @@ main{
     color: #c9a227;
     font-weight: bold;
 }
+.menu-tabs {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 12px 0 18px;
+    margin-bottom: 20px;
+    scrollbar-width: none;
+}
+
+.menu-tabs::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-tabs a {
+    display: inline-block;
+    padding: 10px 16px;
+    border: 1px solid #c9a227;
+    border-radius: 30px;
+    color: #c9a227;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    flex-shrink: 0;
+}
+
+.menu-tabs a:hover,
+.menu-tabs a:active {
+    background: #c9a227;
+    color: #000;
+}
