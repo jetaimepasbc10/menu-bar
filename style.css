@@ -1,1 +1,54 @@
-body{margin:0;background:#0f0f0f;color:#fff;font-family:Georgia,serif}.wrap{max-width:420px;margin:auto;padding:24px}header{display:flex;justify-content:space-between;align-items:center}.logo{color:#c9a15b;font-weight:bold}.logo span{font-size:.8em}.lang button{background:none;border:1px solid #c9a15b;color:#c9a15b;border-radius:20px;padding:6px 10px;margin-left:6px}h1{text-align:center;color:#c9a15b;letter-spacing:4px}.card{display:block;text-decoration:none;color:#fff;border:1px solid #c9a15b;padding:16px;border-radius:12px;margin:14px 0}.disabled{opacity:.5}
+body{
+    margin:0;
+    background:#0d0d0d;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+
+.wrap{
+    max-width:420px;
+    margin:auto;
+    padding:24px;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+}
+
+.logo img{
+    width:70px;
+    height:auto;
+}
+
+.lang button{
+    background:none;
+    border:1px solid #C9A15B;
+    color:#C9A15B;
+    border-radius:20px;
+    padding:6px 12px;
+    margin-left:6px;
+}
+
+h1{
+    text-align:center;
+    color:#C9A15B;
+    letter-spacing:4px;
+}
+
+.card{
+    display:block;
+    text-decoration:none;
+    color:white;
+    border:1px solid #C9A15B;
+    border-radius:12px;
+    padding:16px;
+    margin:14px 0;
+    text-align:center;
+}
+
+.disabled{
+    opacity:.5;
+}
