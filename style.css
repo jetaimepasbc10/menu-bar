@@ -1,54 +1,72 @@
 body{
     margin:0;
-    background:#0d0d0d;
-    color:white;
+    background:#0b0b0b;
+    color:#ffffff;
     font-family:Arial, sans-serif;
 }
 
 .wrap{
-    max-width:420px;
+    max-width:430px;
     margin:auto;
-    padding:24px;
+    padding:22px;
 }
 
 header{
     display:flex;
     justify-content:space-between;
-    align-items:center;
-    margin-bottom:40px;
+    align-items:flex-start;
+    margin-bottom:25px;
 }
 
 .logo img{
-    width:70px;
+    width:110px;
     height:auto;
+    display:block;
+}
+
+.lang{
+    display:flex;
+    gap:8px;
+    margin-top:8px;
 }
 
 .lang button{
-    background:none;
+    background:transparent;
     border:1px solid #C9A15B;
     color:#C9A15B;
-    border-radius:20px;
-    padding:6px 12px;
-    margin-left:6px;
+    border-radius:30px;
+    padding:8px 15px;
+    font-size:15px;
+    cursor:pointer;
 }
 
 h1{
     text-align:center;
     color:#C9A15B;
-    letter-spacing:4px;
+    font-size:58px;
+    letter-spacing:8px;
+    margin:30px 0 35px;
+    font-weight:700;
 }
 
 .card{
     display:block;
     text-decoration:none;
-    color:white;
+    color:#ffffff;
     border:1px solid #C9A15B;
-    border-radius:12px;
-    padding:16px;
-    margin:14px 0;
+    border-radius:18px;
+    padding:20px;
+    margin:18px 0;
     text-align:center;
+    font-size:20px;
+    transition:.25s;
+}
+
+.card:hover{
+    background:#C9A15B;
+    color:#0b0b0b;
 }
 
 .disabled{
-    opacity:.5;
+    opacity:.45;
 }
