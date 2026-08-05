@@ -1,65 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food - Je T'aime Pas Beach Club</title>
 
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Food | Je T'aime Pas Beach Club</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+<div class="wrap">
+
 <header>
-    <img src="logo.png" alt="Je T'aime Pas Beach Club" class="logo">
+
+<div class="logo">
+<img src="logo.png.PNG" alt="Logo">
+</div>
+
+<div class="lang">
+<button id="ptBtn">PT</button>
+<button id="enBtn">EN</button>
+</div>
+
 </header>
 
-<main>
+<a class="back" href="index.html">← MENU</a>
 
-<h1 class="title">FOOD</h1>
+<h1>FOOD</h1>
 
-<section class="menu-section">
-    <h2>Entradas</h2>
+<nav class="menu-tabs">
 
-    <div class="menu-item"><span>Cesto de pão</span><span>1,50€</span></div>
-    <div class="menu-item"><span>Couvert</span><span>5,50€</span></div>
-    <div class="menu-item"><span>Patê de atum</span><span>2,50€</span></div>
-    <div class="menu-item"><span>Manteiga</span><span>0,50€</span></div>
-    <div class="menu-item"><span>Sopa de legumes</span><span>3,50€</span></div>
-    <div class="menu-item"><span>Azeitonas</span><span>3,00€</span></div>
-</section>
+<a href="#entradas">Entradas</a>
+<a href="#pastas">Pastas</a>
+<a href="#tapas">Tapas</a>
 
-<section class="menu-section">
-    <h2>Pastas & Risottos</h2>
+</nav>
 
-    <div class="menu-item"><span>Fetuccini Nero c/ Gambas</span><span>15,00€</span></div>
-    <div class="menu-item"><span>Fetuccini Vegetais</span><span>14,50€</span></div>
-    <div class="menu-item"><span>Risotto de Gambas</span><span>16,00€</span></div>
-    <div class="menu-item"><span>Risotto de Cogumelos</span><span>14,50€</span></div>
-</section>
+<h2 id="entradas">ENTRADAS</h2>
 
-<section class="menu-section">
-    <h2>Tapas / Petiscos</h2>
+<div class="drink"><strong>Cesto de pão</strong><span>1,50€</span></div>
+<div class="drink"><strong>Couvert</strong><span>5,50€</span></div>
+<div class="drink"><strong>Patê de atum</strong><span>2,50€</span></div>
+<div class="drink"><strong>Manteiga</strong><span>0,50€</span></div>
+<div class="drink"><strong>Sopa de legumes</strong><span>3,50€</span></div>
+<div class="drink"><strong>Azeitonas</strong><span>3,00€</span></div>
 
-    <div class="menu-item"><span>Tábua de queijos & enchidos</span><span>25,00€</span></div>
-    <div class="menu-item"><span>1/2 Tábua de queijos & enchidos</span><span>15,00€</span></div>
-    <div class="menu-item"><span>Amendoim</span><span>2,50€</span></div>
-    <div class="menu-item"><span>Azeitonas</span><span>3,00€</span></div>
-    <div class="menu-item"><span>Tremoços</span><span>2,50€</span></div>
-    <div class="menu-item"><span>Camembert com Nozes e Mel</span><span>13,00€</span></div>
-    <div class="menu-item"><span>Camembert com Tomate Cherry</span><span>13,00€</span></div>
-    <div class="menu-item"><span>Camembert Panado c/ Doce de Abóbora</span><span>5,50€</span></div>
-    <div class="menu-item"><span>Trouxa de Queijo de Cabra c/ Vinagrete de Frutos Vermelhos</span><span>5,50€</span></div>
-    <div class="menu-item"><span>Crocante de Alheira</span><span>7,50€</span></div>
-    <div class="menu-item"><span>Ovos Rotos</span><span>14,00€</span></div>
-    <div class="menu-item"><span>Pimentos Padrón</span><span>9,00€</span></div>
-    <div class="menu-item"><span>Duplo Prego no Pão</span><span>10,50€</span></div>
-    <div class="menu-item"><span>Punheta de Bacalhau</span><span>8,50€</span></div>
-    <div class="menu-item"><span>Wedges (Batatas Fritas)</span><span>4,50€</span></div>
-    <div class="menu-item"><span>Batata Doce</span><span>2,00€</span></div>
-</section>
+<h2 id="pastas">PASTAS & RISOTTOS</h2>
 
-</main>
+<div class="drink"><strong>Fetuccini Nero c/ Gambas</strong><span>15,00€</span></div>
+<div class="drink"><strong>Fetuccini Vegetais</strong><span>14,50€</span></div>
+<div class="drink"><strong>Risotto de Gambas</strong><span>16,00€</span></div>
+<div class="drink"><strong>Risotto de Cogumelos</strong><span>14,50€</span></div>
+
+<h2 id="tapas">TAPAS / PETISCOS</h2>
+
+<div class="drink"><strong>Tábua de Queijos & Enchidos</strong><span>25,00€</span></div>
+<div class="drink"><strong>1/2 Tábua de Queijos & Enchidos</strong><span>15,00€</span></div>
+<div class="drink"><strong>Amendoim</strong><span>2,50€</span></div>
+<div class="drink"><strong>Azeitonas</strong><span>3,00€</span></div>
+<div class="drink"><strong>Tremoços</strong><span>2,50€</span></div>
+<div class="drink"><strong>Camembert c/ Nozes e Mel</strong><span>13,00€</span></div>
+<div class="drink"><strong>Camembert c/ Tomate Cherry</strong><span>13,00€</span></div>
+<div class="drink"><strong>Camembert Panado c/ Doce de Abóbora</strong><span>5,50€</span></div>
+<div class="drink"><strong>Trouxa de Queijo de Cabra</strong><small>Vinagrete de Frutos Vermelhos</small><span>5,50€</span></div>
+<div class="drink"><strong>Crocante de Alheira</strong><span>7,50€</span></div>
+<div class="drink"><strong>Ovos Rotos</strong><span>14,00€</span></div>
+<div class="drink"><strong>Pimentos Padrón</strong><span>9,00€</span></div>
+<div class="drink"><strong>Duplo Prego no Pão</strong><span>10,50€</span></div>
+<div class="drink"><strong>Punheta de Bacalhau</strong><span>8,50€</span></div>
+<div class="drink"><strong>Wedges (Batatas Fritas)</strong><span>4,50€</span></div>
+<div class="drink"><strong>Batata Doce</strong><span>2,00€</span></div>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
