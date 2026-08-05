@@ -285,3 +285,15 @@ main{
     background: #c9a227;
     color: #000;
 }
+.menu-tabs {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: 30px;
+    scrollbar-width: none;
+}
+
+.menu-tabs::-webkit-scrollbar {
+    display: none;
+}
