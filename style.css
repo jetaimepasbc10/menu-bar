@@ -43,10 +43,11 @@ header{
 h1{
     text-align:center;
     color:#C9A15B;
-    font-size:58px;
+    font-family:'Cormorant Garamond',serif;
+    font-size:52px;
     letter-spacing:8px;
-    margin:30px 0 35px;
-    font-weight:700;
+    margin:30px 0;
+    font-weight:600;
 }
 
 .card{
@@ -101,8 +102,9 @@ h1{
 
 h2{
     color:#C9A15B;
-    font-size:20px;
-    letter-spacing:4px;
+    font-family:'Cormorant Garamond',serif;
+    font-size:28px;
+    letter-spacing:3px;
     margin-top:45px;
     margin-bottom:20px;
     border-bottom:1px solid rgba(201,161,91,.35);
@@ -120,7 +122,8 @@ h2{
 
 .drink strong{
     display:block;
-    font-size:18px;
+    font-size:24px;
+    font-family:'Cormorant Garamond',serif;
     font-weight:600;
     color:#ffffff;
 }
