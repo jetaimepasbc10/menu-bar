@@ -297,3 +297,28 @@ main{
 .menu-tabs::-webkit-scrollbar {
     display: none;
 }
+.drink {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.drink-photo {
+    width: 55px;
+    height: 82px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #c9a64b;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.drink-photo:active {
+    transform: scale(0.95);
+}
+
+.drink-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
