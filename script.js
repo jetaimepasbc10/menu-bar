@@ -149,3 +149,32 @@ if($("enBtn")){
 window.onload = function(){
     setLanguage(localStorage.getItem("language") || "pt");
 };
+function openImage(src) {
+
+    const overlay = document.createElement("div");
+    overlay.style.position = "fixed";
+    overlay.style.top = "0";
+    overlay.style.left = "0";
+    overlay.style.width = "100%";
+    overlay.style.height = "100%";
+    overlay.style.background = "rgba(0,0,0,0.9)";
+    overlay.style.display = "flex";
+    overlay.style.justifyContent = "center";
+    overlay.style.alignItems = "center";
+    overlay.style.zIndex = "9999";
+
+    const img = document.createElement("img");
+    img.src = src;
+    img.style.maxWidth = "90%";
+    img.style.maxHeight = "90%";
+    img.style.borderRadius = "12px";
+    img.style.border = "2px solid #c9a64b";
+
+    overlay.appendChild(img);
+
+    overlay.onclick = function () {
+        overlay.remove();
+    };
+
+    document.body.appendChild(overlay);
+}
