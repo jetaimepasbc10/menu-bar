@@ -307,6 +307,7 @@ main{
     width: 55px;
     height: 82px;
     object-fit: cover;
+    object-position: center;
     border-radius: 10px;
     border: 1px solid #c9a64b;
     cursor: pointer;
